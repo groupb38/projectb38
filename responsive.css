@@ -1,0 +1,49 @@
+
+@media all and (max-width: 1000px) {
+  .isi {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .top-halaman h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+
+@media all and (max-width: 670px) {
+  .isi {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+
+  .top-halaman {
+    text-align: left;
+  }
+
+  .header-right{
+    display:none;
+  }
+
+  .top-halaman h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-halaman p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
